@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Puur natuur Serum</title>
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./src/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./src/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./src/css/tailwind-output.css" />
+    <link rel="stylesheet" href="./src/css/utilities.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Raleway:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&family=Work+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-white">
+    <header
+      class="max-w-7xl mx-auto flex justify-between items-center overflow-x-scroll gap-8 px-8 pt-10 font-work-sans"
+      data-aos="fade-down"
+    >
+      <img src="./src/images/logo.png" alt="" width="28px" />
+      <ul class="list-none flex gap-8 whitespace-nowrap text-sm lg:text-base">
+        <li class="text-primary-500 underline underline-offset-4">
+          <a href="#">Home</a>
+        </li>
+        <li><a href="#">Production</a></li>
+        <li><a href="#">over ons</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <button
+        type="button"
+        class="rounded-full px-8 py-2 border-2 border-primary-500 bg-transparent text-primary-500 hover:bg-primary-500 hover:text-white focus:outline-none focus:bg-primary-500 text-sm lg:text-base font-medium w-fit text-opacity-95 transition-all"
+      >
+        zoeken
+      </button>
+    </header>
+
+    <section
+      class="mt-10 lg:mt-20 px-8 font-work-sans bg-hero-bg bg-contain bg-no-repeat bg-bottom lg:pb-44"
+    >
+      <div
+        class="max-w-5xl mx-auto flex flex-col lg:items-center justify-between gap-6 lg:flex-row"
+      >
+        <div class="grid gap-8" data-aos="fade-right">
+          <h1 class="font-bold text-4xl sm:text-6xl">
+            bedenken <br />
+            bedenken <br />
+            bedenken
+          </h1>
+
+          <p class="leading-6 max-w-lg text-sm sm:text-base">
+            I seek to push the limits of creativity to create high-engaging,
+            user-friendly, and memorable interactive experiences.
+          </p>
+
+          <button
+            type="button"
+            class="rounded-full px-8 py-3 border-2 border-primary-500 bg-primary-500 text-white hover:bg-transparent hover:text-primary-500 focus:outline-none focus:bg-transparent text-base sm:text-lg font-medium w-fit text-opacity-95 transition-all"
+          >
+            Bestel nu
+          </button>
+        </div>
+
+        <div data-aos="fade-left">
+          <img
+            src="./src/images/hero-image.png"
+            alt="image of the ingredient"
+            class="w-[600px] max-w-full"
+            loading="eager"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="bg-gray-100 flex items-center justify-center gap-4 overflow-x-scroll py-8 px-4"
+    >
+      <div data-aos="flip-left" class="bg-white w-60 h-32 rounded-md"></div>
+      <div data-aos="flip-right" class="bg-white w-60 h-32 rounded-md"></div>
+      <div data-aos="flip-left" class="bg-white w-60 h-32 rounded-md"></div>
+      <div data-aos="flip-right" class="bg-white w-60 h-32 rounded-md"></div>
+    </section>
+
+    <section class="p-8 font-inter">
+      <div class="max-w-7xl mx-auto relative w-full">
+        <div
+          class="grid gap-8 flex-1 pt-12 pb-10 xl:pb-40"
+          data-aos="fade-right"
+        >
+          <h2 class="font-semibold text-2xl sm:text-4xl text-yellow-600">
+            Rechtstreeks uit de bergen
+          </h2>
+
+          <p class="leading-6 text-sm sm:text-base max-w-4xl xl:max-w-md">
+            Een tekst over de traditionele kruiden van Marokko: Marokko is een
+            land met een rijke culinaire traditie, die sterk wordt beïnvloed
+            door de verschillende culturen en volkeren die er door de eeuwen
+            heen hebben gewoond.
+          </p>
+
+          <p class="leading-6 text-sm sm:text-base max-w-4xl xl:max-w-md">
+            Een van de kenmerken van de Marokkaanse keuken is het gebruik van
+            kruiden en specerijen, die niet alleen smaak en kleur geven aan de
+            gerechten, maar ook gezondheidsvoordelen hebben.
+          </p>
+        </div>
+
+        <div class="xl:absolute xl:top-0 xl:right-[120px]" data-aos="fade-left">
+          <img src="./src/images/section-1-img.png" alt="" class="w-[800px]" />
+        </div>
+      </div>
+    </section>
+
+    <section class="font-raleway p-8 bg-gray-100">
+      <div class="max-w-7xl mx-auto w-full">
+        <h2 class="text-4xl sm:text-5xl font-medium break-words">
+          ingerdienten
+        </h2>
+        <p class="text-primary-500 pt-2">Puur natuur Serum</p>
+
+        <div class="flex gap-10 flex-wrap items-center">
+          <div data-aos="fade-right">
+            <img
+              src="./src/images/img-ingerdienten.png"
+              alt=""
+              class="w-[500px] max-w-full"
+            />
+            <div class="flex flex-wrap mt-4 gap-8">
+              <button
+                type="button"
+                class="text-primary-500 py-4 px-8 border-2 border-primary-500 uppercase rounded text-xs hover:bg-primary-500 hover:text-white transition-all focus:outline-none focus:bg-primary-500 focus:text-white"
+              >
+                Meer over ons en het prodcut
+              </button>
+
+              <button
+                type="button"
+                class="text-white py-4 px-8 border-2 border-primary-500 bg-primary-500 hover:bg-transparent hover:text-primary-500 uppercase rounded text-xs transition-all focus:outline-none focus:text-primary-500 focus:bg-transparent"
+              >
+                Bestel Nu →
+              </button>
+            </div>
+          </div>
+
+          <div class="bg-white w-full max-w-2xl shadow-lg" data-aos="fade-left">
+            <div
+              class="px-6 py-8 flex flex-col sm:flex-row gap-4 border-b border-neutral-00"
+            >
+              <p class="break-words font-medium max-w-[150px] text-sm">
+                blaaaaaa
+              </p>
+              <div class="text-neutral-700 text-sm">
+                <p class="break-words">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="px-6 py-8 flex flex-col sm:flex-row gap-4 border-b border-t border-neutral-200"
+            >
+              <p class="break-words font-medium max-w-[150px] text-sm">
+                blaaaaaa
+              </p>
+              <div class="text-neutral-700 text-sm">
+                <p class="break-words">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div
+              class="px-6 py-8 flex flex-col sm:flex-row gap-4 border-b border-t border-neutral-200"
+            >
+              <p class="break-words font-medium max-w-[150px] text-sm">
+                blaaaaaa
+              </p>
+              <div class="text-neutral-700 text-sm">
+                <p class="break-words">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Molestias aliquam odit optio?
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="px-6 py-8 flex flex-col sm:flex-row gap-4 border-b border-t border-neutral-200"
+            >
+              <p class="break-words font-medium max-w-[150px] text-sm">
+                blaaaa
+              </p>
+              <div class="text-neutral-700 text-sm">
+                <p class="break-words">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <p class="break-words mt-2">Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+
+            <div
+              class="px-6 py-8 flex flex-col sm:flex-row gap-4 border-b border-t border-neutral-200"
+            >
+              <p class="break-words font-medium max-w-[150px] text-sm">
+                blaaaaaa
+              </p>
+              <div class="text-neutral-700 text-sm">
+                <p class="break-words">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam mollitia pariatur facilis cumque vitae?
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="px-6 py-8 flex flex-col sm:flex-row gap-4 border-t border-neutral-200"
+            >
+              <p class="break-words font-medium max-w-[150px] text-sm">
+                blaaaaaa
+              </p>
+              <div class="text-neutral-700 text-sm">
+                <p class="break-words">
+                  Lorem ipsum dolor sit amet consectetur adipisicing.
+                </p>
+                <p class="break-words mt-2">Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-16">
+          <h2 class="text-4xl sm:text-5xl break-words">algenemen voordelen</h2>
+          <p class="text-primary-400 pt-4">Puur natuur Serum</p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="flex flex-wrap items-start justify-center gap-10 font-lora px-8 py-16 text-sm"
+    >
+      <div
+        class="flex flex-col justify-center items-center text-center gap-8"
+        data-aos="fade-up"
+      >
+        <img src="./src/images/100.png" alt="" width="100px" />
+        <p class="leading-7 max-w-[170px] w-full">
+          Versterken van het cardiovasculaire systeem
+        </p>
+      </div>
+
+      <div
+        class="flex flex-col justify-center items-center text-center gap-8"
+        data-aos="fade-up"
+      >
+        <img src="./src/images/geen-dier.png" alt="" width="100px" />
+        <p class="leading-7 max-w-[170px] w-full">
+          Gezonde darmen en verbeterde spijsvertering
+        </p>
+      </div>
+
+      <div
+        class="flex flex-col justify-center items-center text-center gap-8"
+        data-aos="fade-up"
+      >
+        <img src="./src/images/vegan.png" alt="" width="100px" />
+        <p class="leading-7 max-w-[170px] w-full">
+          Verlicht symptomen van chronische vermoeidheid, slapeloosheid en
+          stress
+        </p>
+      </div>
+
+      <div
+        class="flex flex-col justify-center items-center text-center gap-8"
+        data-aos="fade-up"
+      >
+        <img src="./src/images/niet.png" alt="" width="100px" />
+        <p class="leading-7 max-w-[170px] w-full">
+          Verhoogde energieniveaus en verbeterde fysieke prestaties
+        </p>
+      </div>
+
+      <div
+        class="flex flex-col justify-center items-center text-center gap-8"
+        data-aos="fade-up"
+      >
+        <img src="./src/images/getest.png" alt="" width="100px" />
+        <p class="leading-7 max-w-[170px] w-full">
+          Verbeteren het immuunsysteem
+        </p>
+      </div>
+    </section>
+
+    <section class="py-12 w-full mx-auto">
+      <div class="flex flex-wrap gap-8 justify-center">
+        <img
+          src="./src/images/before-img.png"
+          alt=""
+          width="500px"
+          data-aos="flip-up"
+        />
+        <img
+          src="./src/images/after-img.png"
+          alt=""
+          width="500px"
+          data-aos="flip-up"
+        />
+      </div>
+
+      <p class="font-raleway text-6xl text-center py-8">of</p>
+
+      <div class="w-full">
+        <img
+          src="./src/images/final-img.png"
+          alt=""
+          width="450px"
+          class="mx-auto pt-8"
+          data-aos="flip-down"
+        />
+      </div>
+    </section>
+
+    <footer class="bg-black">
+      <div class="text-[#BDBEC8] max-w-7xl mx-auto">
+        <div class="border-b border-primary-600 py-10">
+          <div class="flex flex-wrap justify-between items-center gap-8 px-8">
+            <ul class="list-none flex gap-8 flex-wrap font-roboto">
+              <li><a href="">About</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Pricing plans</a></li>
+              <li><a href="">Privacy</a></li>
+              <li><a href="">Contact</a> us</li>
+            </ul>
+            <div class="flex gap-8">
+              <a
+                title="facebok"
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener"
+                class="hover:scale-110 transition-all"
+                ><img src="./src/images/facebook.svg" alt="" width="8px"
+              /></a>
+              <a
+                title="instagram"
+                href="https://instagram"
+                target="_blank"
+                rel="noopener"
+                class="hover:scale-110 transition-all"
+                ><img src="./src/images/instagram.svg" alt="" width="16px"
+              /></a>
+              <a
+                title="twitter"
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener"
+                class="hover:scale-110 transition-all"
+                ><img src="./src/images/twitter.svg" alt="" width="16px"
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex items-start justify-between flex-wrap gap-10 px-8 py-20 font-outfit"
+        >
+          <div class="flex flex-wrap gap-20 items-start">
+            <ul class="list-none grid gap-8">
+              <li class="font-semibold pb-4 text-white">About</li>
+              <li><a href="">About Sway</a></li>
+              <li><a href="">Plans & Pricing</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Blog</a></li>
+            </ul>
+            <ul class="list-none grid gap-8">
+              <li class="font-semibold pb-4 text-white">Products</li>
+              <li><a href="">Primary blocks</a></li>
+              <li><a href="">Content block</a></li>
+              <li><a href="">Infographic blocks</a></li>
+              <li><a href="">Business blocks</a></li>
+            </ul>
+            <ul class="list-none grid gap-8">
+              <li class="font-semibold pb-4 text-white">Resources</li>
+              <li><a href="">Support center</a></li>
+              <li><a href="">Documentation</a></li>
+              <li><a href="">Newsletter</a></li>
+              <li><a href="">Chanelog</a></li>
+            </ul>
+            <ul class="list-none grid gap-8">
+              <li class="font-semibold pb-4 text-white">Follow us</li>
+              <li><a href="">Twitter</a></li>
+              <li><a href="">Dribble</a></li>
+              <li><a href="">Facebook</a></li>
+              <li><a href="">LinkedIn</a></li>
+            </ul>
+          </div>
+          <div class="ml-auto">
+            <p class="text-right text-white font-semibold pb-4">Contact</p>
+            <p class="text-right">
+              New Youk, 112 W <br />
+              34th St, Manhattan <br />
+              (1) 212-445-4329
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="border-t border-primary-600 py-4 px-8 flex flex-wrap gap-8 justify-between font-outfit"
+        >
+          <div>
+            <p>&copy; Sways. All Rights Reserved</p>
+          </div>
+          <div class="flex gap-4">
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 1000,
+      });
+    </script>
+  </body>
+</html>
